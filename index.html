@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 26thOct'21</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #main {
+            background-color: rgb(11, 83, 62);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .bdr {
+            height: 0px;
+            width: 0px;
+            margin: auto;
+            border: 25em solid rgb(11, 83, 62);
+            position: absolute;
+        }
+
+        #tri1 {
+            top: -17em;
+            left: 23em;
+            border-bottom: 15em solid rgb(255, 239, 213);
+            z-index: 3;
+        }
+
+        #tri2 {
+            top: -9em;
+            left: 23em;
+            border-bottom: 15em solid rgb(236, 169, 61);
+            z-index: 2;
+        }
+
+        #tri3 {
+            top: -1em;
+            left: 23em;
+            border-bottom: 15em solid rgb(107, 243, 253);
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="tri1" class="bdr"></div>
+        <div id="tri2" class="bdr"></div>
+        <div id="tri3" class="bdr"></div>
+    </div>
+</body>
+
+</html>
